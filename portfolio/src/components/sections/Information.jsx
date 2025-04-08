@@ -52,7 +52,11 @@ const Information = ({ active, deActive }) => {
             </a>
           </li>
           <li className="flex items-center justify-around w-64 border-r bg-gray-900 py-1 px-2 sm:ml-[-175px] transform transition-all duration-700 hover:ml-0">
-            <a className="flex items-center justify-between w-full text-4xl">
+            <a
+              href="/cv/mehmetcandincCV.pdf"
+              download="mehmetcandincCV.pdf"
+              className="flex items-center justify-between w-full text-4xl"
+            >
               CV
               <svg
                 className="w-18"
