@@ -13,7 +13,7 @@ const Projects = ({ active, deActive }) => {
       website: "https://weatherweatherly.netlify.app/",
       src: Weatherly,
       alt: "Weatherly Site",
-      github: "...",
+      github: "https://github.com/mehmetcandinc/projectWeatherly",
       shadowColor: "shadow-orange-500/50",
     },
     {
@@ -25,7 +25,7 @@ const Projects = ({ active, deActive }) => {
       website: "https://classictodolist.netlify.app/",
       src: ToDo,
       alt: "To-Do List Site",
-      github: "...",
+      github: "https://github.com/mehmetcandinc/projectToDo",
       shadowColor: "shadow-gray-500",
     },
     {
@@ -37,7 +37,7 @@ const Projects = ({ active, deActive }) => {
       website: "https://greenboardqrmenu.netlify.app/",
       src: QRMenu,
       alt: "QR Menu Site",
-      github: "...",
+      github: "https://github.com/mehmetcandinc/projectQRMenu",
       shadowColor: "shadow-green-800",
     },
   ]);
@@ -79,7 +79,7 @@ const Projects = ({ active, deActive }) => {
                   target="_blank"
                   className="cursor-pointer hover:scale-95 duration-300"
                 >
-                  Site
+                  Website
                 </a>
                 <a
                   href={link.github}
